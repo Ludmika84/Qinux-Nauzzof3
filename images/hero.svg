@@ -1,0 +1,50 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 640" role="img" aria-label="Qinux Nauzzof motion relief glasses">
+  <defs>
+    <linearGradient id="sky" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#E8F1F5"/>
+      <stop offset="100%" stop-color="#D4E4EC"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#7EB6C9"/>
+      <stop offset="100%" stop-color="#3D7A92"/>
+    </linearGradient>
+    <linearGradient id="frame" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#2A3F4A"/>
+      <stop offset="100%" stop-color="#1A2B36"/>
+    </linearGradient>
+    <filter id="soft" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="12" stdDeviation="18" flood-color="#1A2B36" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+  <rect width="800" height="640" fill="url(#sky)"/>
+  <g opacity="0.18" fill="none" stroke="#6BA3B8" stroke-width="1">
+    <path d="M40 80h80l40 70-40 70H40l-40-70z"/>
+    <path d="M160 80h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M280 80h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M100 220h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M220 220h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M40 360h80l40 70-40 70H40l-40-70z"/>
+    <path d="M160 360h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M520 80h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M640 80h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M580 220h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M700 220h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M520 360h80l40 70-40 70h-80l-40-70z"/>
+    <path d="M640 360h80l40 70-40 70h-80l-40-70z"/>
+  </g>
+  <g filter="url(#soft)" transform="translate(120 150)">
+    <path d="M90 120 Q160 40 250 120" fill="none" stroke="url(#frame)" stroke-width="14" stroke-linecap="round"/>
+    <ellipse cx="90" cy="160" rx="88" ry="78" fill="none" stroke="url(#frame)" stroke-width="16"/>
+    <ellipse cx="430" cy="160" rx="88" ry="78" fill="none" stroke="url(#frame)" stroke-width="16"/>
+    <path d="M178 160 H342" stroke="url(#frame)" stroke-width="14" stroke-linecap="round"/>
+    <path d="M2 140 Q-40 130 -70 90" fill="none" stroke="url(#frame)" stroke-width="12" stroke-linecap="round"/>
+    <path d="M518 140 Q560 130 590 90" fill="none" stroke="url(#frame)" stroke-width="12" stroke-linecap="round"/>
+    <ellipse cx="90" cy="160" rx="62" ry="52" fill="url(#lens)" opacity="0.35"/>
+    <ellipse cx="430" cy="160" rx="62" ry="52" fill="url(#lens)" opacity="0.35"/>
+    <ellipse cx="90" cy="160" rx="48" ry="14" fill="none" stroke="#5B9BB0" stroke-width="8" opacity="0.85" transform="rotate(-18 90 160)"/>
+    <ellipse cx="430" cy="160" rx="48" ry="14" fill="none" stroke="#5B9BB0" stroke-width="8" opacity="0.85" transform="rotate(18 430 160)"/>
+    <circle cx="130" cy="148" r="7" fill="#8FCBDD"/>
+    <circle cx="390" cy="148" r="7" fill="#8FCBDD"/>
+  </g>
+  <text x="400" y="560" text-anchor="middle" font-family="Georgia, serif" font-size="28" fill="#1A2B36" opacity="0.55">Qinux Nauzzof</text>
+</svg>

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://qinux-nauzzof.co.uk/sitemap.xml
